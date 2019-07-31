@@ -5,7 +5,7 @@ from io import BytesIO
 from PIL import Image
 import requests
 import os
-import GetCategories
+import GetCaturl
 
 def scrpingimg(geturl):
     html = urlopen(geturl)
